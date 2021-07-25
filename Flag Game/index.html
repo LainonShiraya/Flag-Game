@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>API</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="lost">
+        Your Nickname:<input type="text" class="username" autocomplete="off" />
+        <p id="score"></p>
+        <p id="correct_flag"></p>
+        <button class="new_game">New Game</button>
+      </div>
+      <p>TOP 3 PLAYERS:</p>
+      <ul class="plates">
+        <li>Loading Users</li>
+      </ul>
+      <form class="check">
+        <div id="flags">
+          <div class="flag_div">
+            <img src="" class="flag" />
+          </div>
+          <div class="input_submit_div">
+            <input
+              type="text"
+              placeholder="Name or ISO CODE"
+              class="input_text"
+              autocomplete="off"
+            />
+            <input type="submit" class="confirm" value="Check" />
+            <div class="actual_score"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

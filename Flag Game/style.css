@@ -1,0 +1,30 @@
+#lost {
+  display: none;
+}
+
+body {
+  background-color: rgb(197, 197, 241);
+  margin: 0;
+  padding: 0;
+}
+
+#flags {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+.flag {
+  width: 350px;
+  height: 200px;
+}
+.input_submit_div {
+  text-align: center;
+}
+#lost {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+}
