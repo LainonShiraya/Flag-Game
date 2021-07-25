@@ -1,2 +1,2 @@
 # Flag-Game
-Vanilla javascript flag game on api and localstorage
+Vanilla javascript flag game based on api and localstorage
